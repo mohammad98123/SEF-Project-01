@@ -1,0 +1,689 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.header .container .logo {
+    width: 250px;
+}
+
+.header .container .links {
+    float: right;
+    margin-top: 30px;
+}
+
+.header .container .links li {
+    display: inline-block;
+    padding-left: 35px;
+}
+
+.header .container .links li a {
+    text-decoration: none;
+    color: #fcbf00;
+}
+
+.header .container .links li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+/* Start Landing */
+.landing {
+    background-image: url(../img/MODULO_CURTOIS_V2\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.landing .intro-text {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.landing .intro-text h1 {
+    font-size: 90px;
+    color: #fcbf00;
+}
+
+.landing .intro-text p {
+    font-size: 20px;
+}
+
+.landing .intro-text button {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 80px;
+    margin-left: 20px;
+}
+
+.landing .intro-text .btn-1:hover {
+    background-color: #fcbf00;
+}
+
+.landing .intro-text .btn-2:hover {
+    background-color: #a2a2a2;
+}
+
+/* End Landing */
+.staduim {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.staduim .container h2 {
+    text-align: center;
+}
+
+.staduim .container .line {
+    width: 70px;
+    height: 3px;
+    background-color: #2196f3;
+    margin: 5px auto 0;
+}
+
+.staduim .container {
+    overflow: auto;
+}
+
+.staduim .container .card {
+    float: left;
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 25px;
+    background-color: #f6f6f6;
+}
+
+
+
+.staduim .container .card img {
+    max-width: 100%;
+}
+
+.staduim .container .card p {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* Emd welcome */
+
+/* Start official announcement */
+.officail {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f6f6f6;
+    overflow: auto;
+}
+
+.officail .container h2 {
+    text-align: center;
+}
+
+.officail .container .line {
+    width: 70px;
+    height: 3px;
+    background-color: #2196f3;
+    margin: 5px auto 60px;
+}
+
+.officail .container .card {
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    position: relative;
+}
+
+.officail .container .card img {
+    max-width: 100%;
+}
+
+.officail .container .card p {
+    padding: 20px;
+    line-height: 1.6;
+    color: #777;
+}
+
+.officail .container .card .info {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    visibility: hidden;
+    transform: translate(-50%, -50%);
+}
+
+.officail .container .card .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.officail .container .card:hover .info {
+    visibility: visible;
+}
+
+.officail .container .card:hover .overlay {
+    visibility: visible;
+}
+
+.officail .container .card .info h4 {
+    margin-top: 10px;
+}
+
+.officail .container .card .info i {
+    background-color: #2196f3;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+
+/* End official announcement */
+/* Club legends */
+.legends {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: auto;
+}
+
+.legends .container h2 {
+    text-align: center;
+}
+
+.legends .container .line {
+    width: 70px;
+    height: 3px;
+    background-color: #2196f3;
+    margin: 5px auto 60px;
+}
+
+.legends .container .legends-clubs {
+    overflow: auto;
+}
+
+.legends .container .legends-clubs .legends-1 {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+    margin-bottom: 33px;
+    border: 4px solid;
+    padding: 20px;
+}
+
+.legends .container .legends-clubs .legends-1 i {
+    font-size: 30px;
+    margin-left: -10px;
+}
+
+.legends .container .legends-clubs .legends-1 .info {}
+
+.legends .container .legends-clubs .legends-1 .info h3 {
+    margin: -22px 33px 10px;
+}
+
+.legends .container .legends-clubs .legends-1 .info p {
+    color: #777;
+    /* position: relative; */
+    /* left: 33px; */
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+/* Club legends */
+
+/* King */
+.month-player {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f6f6f6;
+}
+
+.month-player .container .line {
+    width: 70px;
+    height: 3px;
+    background-color: #2196f3;
+    margin: 5px 0 30px;
+}
+
+.month-player .container .left {
+    float: left;
+    width: 50%;
+}
+
+.month-player .container p {
+    line-height: 1.8;
+    color: #777;
+    margin-bottom: 20px;
+
+}
+
+.month-player .container .datile {
+    margin-bottom: 15px;
+}
+
+.month-player .container .datile i {
+    color: #2196f3;
+    font-size: 22px;
+}
+
+.month-player .container .datile span {
+    font-weight: bold;
+}
+
+.month-player .container .datile .img {
+    float: right;
+    width: 20%;
+}
+
+.month-player .container ul {
+    list-style: none;
+    position: absolute;
+    right: 350px;
+}
+
+.month-player .container ul li {
+    background-color: gray;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 10px 5px;
+}
+
+.month-player .container ul .active {
+    background-color: #2196f3;
+}
+
+.month-player .container ul li:hover {
+    background-color: #2196f3;
+}
+
+/* King */
+/* Followers */
+.follow {
+    background-image: url(../img/_HE13634_.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: auto;
+    position: relative;
+}
+
+.follow .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+}
+
+.follow .container div {
+    float: left;
+    margin-left: 50px;
+    width: 20%;
+    text-align: center;
+}
+
+.follow .container div i {
+    color: #2196f3;
+    margin-bottom: 10px;
+}
+
+.follow .container div p {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+.follow .container div span {
+    color: white;
+}
+
+/* Followers */
+
+/* price  */
+.ticket {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f6f6f6;
+}
+
+.ticket .container h2 {
+    text-align: center;
+}
+
+.ticket .container .line {
+    width: 70px;
+    height: 3px;
+    background-color: #2196f3;
+    margin: 5px auto 30px;
+}
+
+.ticket .container .price-1 {
+    overflow: auto;
+}
+
+.ticket .container .price-1 .child {
+    float: left;
+    width: 25%;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 65px;
+    padding: 20px;
+    position: relative;
+}
+
+.ticket .container .price-1 .child::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #2196f3;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.ticket .container .price-1 .child:hover:after {
+    height: 100%;
+    opacity: 0.7;
+}
+
+.ticket .container .price-1 .child h3 {}
+
+.ticket .container .price-1 .child .cricle {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+.ticket .container .price-1 .child .cricle .price {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ticket .container .price-1 .child .cricle .month {
+    margin-top: 10px;
+}
+
+.ticket .container .price-1 .child .desc {
+    margin: 10px 0;
+}
+
+.ticket .container .price-1 .child .desc p {
+    margin: 5px 0;
+}
+
+.ticket .container .price-1 .child button {
+    padding: 5px 20px;
+    border: navajowhite;
+    background-color: #2196f3;
+    color: wheat;
+    font-weight: bold;
+}
+
+/* price  */
+
+/* league */
+.league {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+    background-image: url(../img/league.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.league .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+}
+
+.league .container {
+    overflow: auto;
+}
+
+.league .container .player {
+    float: left;
+    width: 40%;
+    margin-right: 75px;
+    position: relative;
+}
+
+.league .container .player img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.league .container .player h3 {
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 65px;
+}
+
+.league .container .player span {
+    color: #2196f3;
+    font-weight: bold;
+}
+
+.league .container .player p {
+    margin-top: 20px;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* league */
+/* Team  */
+.team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.team .container h2 {
+    text-align: center;
+}
+
+.team .container .line {
+    width: 70px;
+    height: 3px;
+    background-color: #2196f3;
+    margin: 5px auto 0;
+}
+
+.team .container .team-contnet {
+    padding-top: 60px;
+    overflow: auto;
+}
+
+.team .container .team-contnet .player {
+    background-color: #f6f6f6;
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.team .container .team-contnet .player::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #2196f3;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.team .container .team-contnet .player:hover:after {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.team .container .team-contnet .player img {
+    max-width: 100%;
+}
+
+.team .container .team-contnet .player h3 {
+    padding: 10px 0;
+}
+
+.team .container .team-contnet .player p {
+    padding-bottom: 10px;
+}
+
+
+/* Team  */
+/* News  */
+.news {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f6f6f6;
+}
+
+.news .container h2 {
+    text-align: center;
+}
+
+.news .container .line {
+    width: 70px;
+    height: 3px;
+    background-color: #2196f3;
+    margin: 5px auto 0;
+}
+
+.news .container .news-content {
+    overflow: auto;
+    padding-top: 60px;
+}
+
+.news .container .card {
+    width: 30%;
+    float: left;
+    margin-left: 15px;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+}
+
+.news .container .news-content .card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #2196f3;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.news .container .news-content .card:hover::after {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.news .container .card .img {}
+
+.news .container .card .img img {
+    max-width: 100%;
+}
+
+.news .container .card ul {
+    list-style: none;
+}
+
+.news .container .card ul li {
+    display: inline-block;
+    margin: 10px 8px;
+}
+
+.news .container .card ul li i {
+    color: #2196f3;
+}
+
+.news .container .card h3 {
+    margin: 10px 0;
+}
+
+.news .container .card p {
+    color: #777;
+    line-height: 1.7;
+}
+
+/* News  */
+/* footer  */
+.footer {
+    background-color: #2196f3;
+    text-align: center;
+    padding: 60 0;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.footer ul li a {
+    color: white;
+}
+
+.footer ul li a i {
+    font-size: 25px;
+}
+
+.footer p {
+    color: white;
+    font-size: 19px;
+}
+
+/* footer  */
